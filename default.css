@@ -16,9 +16,11 @@ body {
 	font-weight: 300;
 	color: #6c6c6c
 }
-#h2 {
 
+p #essay {
+	float: left;
 }
+
 h1,
 h2,
 h3 {
@@ -44,9 +46,7 @@ p {
 	line-height: 180%;
 }
 
-strong {
-
-}
+strong {}
 
 a {
 	color: #2C383B;
