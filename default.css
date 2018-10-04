@@ -1017,3 +1017,7 @@ ul.contact li a.icon-rss:before
 	width: 100%;
 	background-color: rgb(18, 18, 68);
   }
+  ul.sticky li a:hover {
+	  color: #323232;
+	  text-decoration: none;
+  }
