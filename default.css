@@ -448,11 +448,11 @@ ul.contact li a.icon-rss:before {
 	float: right;
 }
 
-	margin: 0em;
-	padding: 0em;
-	font-weight: 400;
-	font-size: 3em;
-	color: #555555;
+margin: 0em;
+padding: 0em;
+font-weight: 400;
+font-size: 3em;
+color: #555555;
 }
 
 #banner span {
@@ -894,42 +894,47 @@ ul.contact li a.icon-rss:before {
 	top: 0;
 	width: 100%;
 	background-color: rgb(18, 18, 68);
-  }
+}
 
-  ul.sticky li a:hover {
-	  color: #323232;
-	  text-decoration: none;
-  }
+ul.sticky li a:hover {
+	color: #323232;
+	text-decoration: none;
+}
 
-  .skew {
-	  align-content: center;
-	  position: relative;
-	  width: 56px;
-	  height: 56px;
-	  margin-top: 150px;
-	  margin-left: auto;
-	  margin-right: auto;
-	  background: rgb(255,255,255);
-	  transform: rotate(-30deg) skew(25deg);
-	  transition: 0.5s;
-  }
-  .skew img {
-	  position: absolute;
-	  width: 100%;
-	  transition: 0.5s;
-  }
-  .skew:hover img:nth-child(4) {
-	  transform: translate(160px, -160px);
-	  opacity: 1;
-  }
-  .skew:hover img:nth-child(3) {
+.skew {
+	align-content: center;
+	position: relative;
+	width: 56px;
+	height: 56px;
+	margin-top: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	background: rgb(255, 255, 255);
+	transform: rotate(-30deg) skew(25deg);
+	transition: 0.5s;
+}
+
+.skew img {
+	position: absolute;
+	width: 100%;
+	transition: 0.5s;
+}
+
+.skew:hover img:nth-child(4) {
+	transform: translate(160px, -160px);
+	opacity: 1;
+}
+
+.skew:hover img:nth-child(3) {
 	transform: translate(120px, -120px);
 	opacity: 0.8;
 }
+
 .skew:hover img:nth-child(2) {
 	transform: translate(80px, -80px);
 	opacity: 0.6;
 }
+
 .skew:hover img:nth-child(1) {
 	transform: translate(40px, -40px);
 	opacity: 0.4;
