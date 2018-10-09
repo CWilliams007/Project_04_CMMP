@@ -1,3 +1,7 @@
+
+/* the styles/colors all that good stuff! */
+/* <link href="fonts.css" rel="stylesheet" type="text/css" media="all" /> */
+/* <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT" rel="stylesheet"> */
 html,
 body {
 	height: 100%;
@@ -7,11 +11,17 @@ body {
 	margin: 0px;
 	padding: 0px;
 	background: rgb(18, 18, 68);
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 	font-size: 11pt;
 	font-weight: 300;
 	color: #6c6c6c;
 }
+
+#Headings2 {
+	font-family: 'Cabin Sketch', sans-serif;
+}
+
+
 
 h1,
 h2,
@@ -38,7 +48,10 @@ p {
 	line-height: 180%;
 }
 
+
 /* strong {} */
+strong {}
+
 
 a {
 	color: #2C383B;
@@ -54,7 +67,7 @@ a:hover {
 }
 
 
-/* Image Style                                                                   */
+/* Image Style */
 
 
 .image {
@@ -163,7 +176,10 @@ ul.style2 li:first-child {
 }
 
 ul.style2 .icon {
+
 	color: #FFF;
+	color: rgb(80, 78, 77);
+
 }
 
 ul.style3 {
@@ -201,7 +217,7 @@ ul.style3 .icon {
 }
 
 
-/* Social Icon Styles                                                            */
+/* Social Icon Styles   */
 
 
 ul.contact {
@@ -277,9 +293,14 @@ ul.contact li a.icon-rss:before {
 	color: #FFF;
 }
 
+
 /* .button:hover {} */
 
 /* .button:active {} */
+.button:hover {}
+
+.button:active {}
+
 
 .button-big {
 	padding: 1.6em 4em;
@@ -316,10 +337,9 @@ ul.contact li a.icon-rss:before {
 #header-wrapper {
 	overflow: hidden;
 	padding: 5em 0em 0em 0em;
-	background: #FFC000 url(header.jpg) repeat;
-}
-
 /* #header {} */
+	background: #FFC000 url(headerimg.jpg) repeat;
+}
 
 #triangle-up {
 	margin: 0 auto;
@@ -401,10 +421,15 @@ ul.contact li a.icon-rss:before {
 	color: #FFF;
 }
 
+
 /* 
 #menu li:hover a,
 #menu li.active a,
 #menu li.active span {} */
+#menu li:hover a,
+#menu li.active a,
+#menu li.active span {}
+
 
 #menu .current_page_item a {
 	color: #FFF;
@@ -600,7 +625,6 @@ ul.contact li a.icon-rss:before {
 	text-align: center;
 }
 
-
 #featured .icon {
 	position: relative;
 	display: inline-block;
@@ -655,9 +679,13 @@ ul.contact li a.icon-rss:before {
 	position: relative;
 }
 
+
 /* #slider .button {}
 
 #slider .button:hover {} */
+#slider .button {}
+
+#slider .button:hover {}
 
 #slider .viewer {
 	width: 1000px;
@@ -794,7 +822,9 @@ ul.contact li a.icon-rss:before {
 	margin-top: 2em;
 }
 
+
 /* .extra2 {} */
+.extra2 {}
 
 .extra2 .icon {
 	font-size: 1.5em;
@@ -825,6 +855,7 @@ ul.contact li a.icon-rss:before {
 }
 
 /* .extra2 .ebox1 {} */
+.extra2 .ebox1 {}
 
 .extra2 .ebox2 {
 	margin-top: 10em;
@@ -889,6 +920,7 @@ ul.contact li a.icon-rss:before {
 	top: 0;
 	width: 100%;
 	background-color: rgb(18, 18, 68);
+
 }
 
 /*About Page*/
@@ -933,4 +965,6 @@ body>article>p {
 #copyright .container{
 	background-color: white;
 	color: rgb(18, 18, 68);
+
+  Stashed changes
 }
