@@ -1,4 +1,3 @@
-
 /* the styles/colors all that good stuff! */
 /* <link href="fonts.css" rel="stylesheet" type="text/css" media="all" /> */
 /* <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT" rel="stylesheet"> */
@@ -15,6 +14,10 @@ body {
 	font-size: 11pt;
 	font-weight: 300;
 	color: #6c6c6c;
+}
+article {
+	padding-top: 50px;
+	padding-bottom: 0px;
 }
 
 #Headings2 {
@@ -293,11 +296,10 @@ ul.contact li a.icon-rss:before {
 	color: #FFF;
 }
 
-
-/* .button:hover {} */
-
-/* .button:active {} */
-.button:hover {}
+.button:hover {
+	background-color: rgb(18, 18, 68);
+	transition: 0.3s ease-in-out;
+}
 
 .button:active {}
 
@@ -391,11 +393,11 @@ ul.contact li a.icon-rss:before {
 
 
 #menu-wrapper {
-	background-color: #3D3D3D;
+	background-color: rgb(18, 18, 68);
 }
 
 #menu {
-	background-color: #3D3D3D;
+	background-color: rgb(18, 18, 68);
 	margin: 0px auto;
 }
 
@@ -420,15 +422,13 @@ ul.contact li a.icon-rss:before {
 	outline: 0;
 	color: #FFF;
 }
-
-
-/* 
-#menu li:hover a,
-#menu li.active a,
-#menu li.active span {} */
-#menu li:hover a,
-#menu li.active a,
-#menu li.active span {}
+#menu:hover {
+	font-size: 1.15em;
+	transition: 0.3s;
+}
+#menu li:hover a, #menu li.active a, #menu li.active span {
+	color: #323232;
+}
 
 
 #menu .current_page_item a {
@@ -590,6 +590,7 @@ ul.contact li a.icon-rss:before {
 	padding: 10em 0em;
 	background: #FFF;
 	text-align: center;
+	
 }
 
 #featured {
@@ -913,58 +914,4 @@ ul.contact li a.icon-rss:before {
 
 #portfolio h2 {
 	text-align: center;
-}
-
-.sticky {
-	position: fixed;
-	top: 0;
-	width: 100%;
-	background-color: rgb(18, 18, 68);
-
-}
-
-/*About Page*/
-
-body.about {
-	color: #ffffff;
-
-}
-
-header.about {
-	background-color: white;
-	color: rgb(18, 18, 68);
-	padding: 4em;
-	text-align: center;
-	text-decoration: underline;
-}
-
-body>article>img {
-	float: left;
-	vertical-align: 50%;
-	width: 10%;
-	padding: 1.3em;
-}
-
-body>article {
-	padding: 4em;
-	color: white;
-	float: right;
-
-}
-
-
-body>article>h1 {
-	color: white;
-}
-
-body>article>p {
-	width: 90%;
-	font-size: 1.1em;
-}
-
-#copyright .container{
-	background-color: white;
-	color: rgb(18, 18, 68);
-
-  Stashed changes
 }
