@@ -1,5 +1,5 @@
 @charset "utf-8";
-
+/* setting the size and prosition of card, also using a transition property to make it smooth */
 .card {
     margin: 0px;
     padding: 0px;
@@ -43,6 +43,8 @@
     transition: 0.5s;
 
 }
+
+/* Making it so that when you hover over the car it rotates */
 
 .card:hover .back {
     transform: rotateX(0deg);

@@ -54,10 +54,6 @@ p {
 }
 
 
-/* strong {} */
-strong {}
-
-
 a {
 	color: #2C383B;
 }
@@ -96,7 +92,10 @@ a:hover {
 	transition: 0.3s ease-in-out;
 }
 
-.button:active {}
+.button:active {
+	background-color: rgb(18, 18, 68);
+	transition: 0.3s ease-in-out;
+}
 
 /* Heading Titles                                                                */
 
